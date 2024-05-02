@@ -1,4 +1,4 @@
-import '../Navbar.css';
+import '../Styles/Navbar.css';
 import menubar from '../assets/images/menu.png'
 import logo from '../assets/images/logo nonna.png'
 function Navbar() {

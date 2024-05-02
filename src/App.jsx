@@ -1,15 +1,20 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from './Navbar/Navbar.jsx'
-import JsonArray from './recipes.json'
+import {Routes, Route} from "react-router-dom"
+import Navbar from './Components/Navbar.jsx'
+import jsonArray from './recipes.json'
+import MainThing from './Components/MainThing.jsx' 
 
 function App() {
-
-
-  return (
-  <Navbar />
-
-      
+  const newDate = new Date();
+  return(
+    <>
+    <Navbar />
+    <Routes>
+      <Route path="/" element={<MainThing jsonArray={jsonArray}/>} />
+    </Routes>
+    {/*<footer>©️ {newDate.getFullYear()}</footer>*/}
+    </>
   )
 }
 
