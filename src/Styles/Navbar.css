@@ -4,6 +4,9 @@
     box-sizing: border-box;
     background-color: rgb(255, 255, 255);
 }
+#root {
+    background-color: rgb(214, 121, 22);
+}
 .navbar {
 display: flex;
 justify-content: space-between;
@@ -34,14 +37,31 @@ h1 {
     justify-content: center;
 align-items: center;
 flex-direction: column;
-
+background-color: beige;
+border-radius: 30px;
+margin: 300px;
+padding: 20px;
+border: 3px solid black;
+box-shadow: 5px 5px ;
 }
 
 .section  {
-    background-color: rgb(88, 27, 112);
-    gap: 10px
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    border-radius: 30px;
+    
 }
 .section img {
-    width: 200px;
-height: 150px;
+    width: 350px;
+height: 240px;
+border-radius: 50px;
+}
+
+.section p {
+    margin-bottom: 10px;
+    font-size: 30px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
