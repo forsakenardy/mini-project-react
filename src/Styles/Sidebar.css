@@ -1,0 +1,21 @@
+.Sidebar-Content {
+    height: 70vh;
+    width: 30vw;
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    background-color: rgb(219, 146, 107) ;
+}
+.Footer {
+    width: 100vw;
+    height: 20vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: antiquewhite;
+}
+.Sidebar-Content h1 {
+    font-size: 3.5vw;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+}

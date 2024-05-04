@@ -5,12 +5,14 @@ import Navbar from './Components/Navbar.jsx'
 import jsonArray from './recipes.json'
 import MainThing from './Components/MainThing.jsx' 
 import { Link } from 'react-router-dom'
+import Sidebar from './Components/Sidebar.jsx'
 
 function App() {
   const newDate = new Date();
   return(
     <>
     <Navbar />
+    <Sidebar/>
     <Routes>
       <Route path="/" element={<MainThing jsonArray={jsonArray}/>} />
       {/*Aquí metemos un link para clicar en la foto y que lleve a 
