@@ -23,7 +23,7 @@ function MainThing() {
     <p>calories: {recipe.calories} </p>
     <p>Servings: {recipe.servings}</p>
     <button onClick={()=>deleteRecipe(recipe.id)}>Delete</button>
-    <Link to="/Details"><button>Details</button></Link>
+    <Link to={`/Details/${recipe.id}`}><button>Details</button></Link>
     </div>
 </div>
 )})}

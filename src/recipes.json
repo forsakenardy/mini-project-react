@@ -4,118 +4,136 @@
       "name": "Pizza",
       "calories": 400,
       "image": "https://i.imgur.com/eTmWoAN.png",
-      "servings": 1
+      "servings": 1,
+      "preparation": "Preheat the oven to 220°C. Roll out the pizza dough on a baking sheet. Spread tomato sauce evenly on the dough and add your favorite toppings. Bake for 12-15 minutes or until the crust is golden brown."
     },
     {
       "id": "37e0b31d-63f4-4d42-9f4b-e9a0fc464d60",
       "name": "Salad",
       "calories": 150,
       "image": "https://i.imgur.com/DupGBz5.jpg",
-      "servings": 1
+      "servings": 1,
+      "preparation": "Wash and chop the vegetables. Combine them in a large bowl. Add dressing according to taste and toss well before serving."
     },
     {
       "id": "b5eb5b5f-41b8-4f1f-8844-7a1a56a17df7",
       "name": "Sweet Potato",
       "calories": 120,
       "image": "https://i.imgur.com/hGraGyR.jpg",
-      "servings": 1
+      "servings": 1,
+      "preparation": "Preheat the oven to 200°C. Wash and peel the sweet potatoes. Cut them into cubes. Toss them with olive oil, salt, and any desired seasonings. Spread them in a single layer on a baking sheet and bake for 25-30 minutes, or until tender."
     },
     {
       "id": "6c0f6f33-8c50-403d-9d1c-6ac9d8b77f29",
       "name": "Gnocchi",
       "calories": 500,
       "image": "https://i.imgur.com/93ekwW0.jpg",
-      "servings": 1
+      "servings": 1,
+      "preparation": "Bring a large pot of salted water to a boil. Add the gnocchi and cook according to package instructions, or until they float to the surface. Drain the gnocchi and serve with your favorite sauce."
     },
     {
       "id": "f4b4d2bc-ff12-4f3f-b3b3-19d2f1682401",    
       "name": "Pot Roast",
       "calories": 350,
       "image": "https://i.imgur.com/WCzJDWz.jpg",
-      "servings": 1
+      "servings": 1,
+      "preparation": "Preheat your oven to 160°C. Season the roast with salt and pepper. In a large Dutch oven, heat oil over medium-high heat. Brown the roast on all sides. Add onions, carrots, potatoes, and broth. Cover and bake for 3-4 hours, or until the meat is tender."
+
     },
     {
       "id": "bf89c1db-5c5b-4262-9d1e-8a68f88c61d5",    
       "name": "Lasagna",
       "calories": 750,
       "image": "https://i.imgur.com/ClxOafl.jpg",
-      "servings": 1
+      "servings": 1,
+      "preparation": "Preheat the oven to 180°C. Spread a thin layer of sauce in the bottom of a baking dish. Arrange a layer of lasagna noodles over the sauce. Top with a layer of ricotta cheese mixture, mozzarella cheese, and sauce. Repeat layers until all ingredients are used. Cover with foil and bake for 45 minutes. Remove foil and bake for an additional 15 minutes, or until bubbly and golden."
     },
     {
       "id": "bca9beec-43d3-48b1-9b57-793a8a8c3520",
       "name": "Hamburger",
       "calories": 400,
       "image": "https://i.imgur.com/LoG39wK.jpg",
-      "servings": 1
+      "servings": 1,
+      "preparation": "Preheat grill to medium-high heat. Season ground beef with salt and pepper. Form into patties. Grill patties for 4-5 minutes per side, or until desired doneness. Serve on buns with your favorite toppings."
     },
     {
       "id": "b777a69a-7f1c-41e8-8a4c-1d0e9e4cace8",
       "name": "Pad Thai",
       "calories": 475,
       "image": "https://i.imgur.com/5ktcSzF.jpg",
-      "servings": 1
+      "servings": 1,
+      "preparation": "Soak rice noodles in warm water for 20 minutes, or until soft. Heat oil in a large skillet over medium heat. Add garlic and tofu, cooking until golden brown. Add shrimp, eggs, and drained noodles. Stir in tamarind sauce and bean sprouts. Cook until heated through. Serve with lime wedges, crushed peanuts, and cilantro."
     },
     {
       "id": "d087343e-9a92-48c7-8b27-43e37491b6f5",   
       "name": "Almonds",
       "calories": 75,
       "image": "https://i.imgur.com/JRp4Ksx.jpg",
-      "servings": 1
+      "servings": 1,
+      "preparation": "Enjoy almonds as a healthy snack, or use them in recipes like salads, granola, or almond butter. Or you could just pick them up one by one, with hands preferably."
     },
     {
       "id": "e1f87a2e-60b3-4a3f-bb48-20a396a9a94f",    
       "name": "Sarma",
       "calories": 200,
       "image": "https://i.imgur.com/yOlf4Fj.jpg",
-      "servings": 1
+      "servings": 1,
+      "preparation": "Place cabbage leaves in boiling water for 2-3 minutes, or until softened. Drain and set aside. In a bowl, mix together ground meat, rice, onion, and seasonings. Place a spoonful of filling onto each cabbage leaf. Roll tightly and place in a baking dish. Pour tomato sauce over the rolls. Bake at 180°C for 45-50 minutes."
     },
     {
       "id": "0ce7e4d4-1c8a-4e9f-98df-1ecb1e7b8a0b",    
       "name": "Bacon",
       "calories": 175,
       "image": "https://i.imgur.com/7GlqDsG.jpg",
-      "servings": 1
+      "servings": 1,
+      "preparation": "Preheat oven to 200°C. Arrange bacon slices on a baking sheet. Bake for 15-20 minutes, or until crispy."
     },
     {
       "id": "bbfd30fd-cd75-4e3b-8fc8-3d3fd62a3c39",
       "name": "Hot Dog",
       "calories": 275,
       "image": "https://i.imgur.com/QqVHdRu.jpg",
-      "servings": 1
+      "servings": 1,
+      "preparation": "Grill hot dogs over medium heat for 5-7 minutes, or until heated through. Serve in buns with your favorite toppings."
     },
     {
       "id": "1c6d5b5f-4e72-4136-8c6c-9cf3e3d16a65",
       "name": "Chocolate Cake",
       "calories": 490,
       "image": "https://i.imgur.com/yrgzA9x.jpg",
-      "servings": 1
+      "servings": 1,
+      "preparation": "Preheat oven to 180°C. Grease and flour a cake pan. In a large bowl, mix together flour, sugar, cocoa powder, baking powder, baking soda, and salt. Stir in eggs, milk, oil, and vanilla extract. Pour batter into prepared pan. Bake for 30-35 minutes, or until a toothpick inserted into the center comes out clean. Allow to cool before frosting."
     },
     {
       "id": "07d9616d-7a63-457c-b8a7-58f6a70a67e3",
       "name": "Wheat Bread",
       "calories": 175,
       "image": "https://i.imgur.com/TsWzMfM.jpg",
-      "servings": 1
+      "servings": 1,
+      "preparation": "In a large bowl, dissolve yeast in warm water. Add sugar, salt, oil, and 3 cups of flour. Beat until smooth. Stir in enough remaining flour to form a soft dough. Turn onto a floured surface and knead until smooth and elastic, about 6-8 minutes. Place in a greased bowl, turning once to grease the top. Cover and let rise in a warm place until doubled, about 1 hour. Punch dough down and shape into loaves. Place in greased loaf pans. Cover and let rise until doubled, about 30 minutes. Bake at 180°C for 30-35 minutes, or until golden brown."
     },
     {
       "id": "d7a8f0c1-0a34-4e3b-a2d3-3c3e3f11eb19",
       "name": "Orange",
       "calories": 85,
       "image": "https://i.imgur.com/abKGOcv.jpg",
-      "servings": 1
+      "servings": 1,
+      "preparation": "Peel and section oranges. Enjoy as a refreshing snack or add to salads and desserts."
     },
     {
       "id": "a8d111c4-50ef-4c61-8b16-17e84a86b2f4",
       "name": "Banana",
       "calories": 175,
       "image": "https://i.imgur.com/BMdJhu5.jpg",
-      "servings": 1
+      "servings": 1,
+      "preparation": "Peel and enjoy bananas as a quick and healthy snack, or add them to smoothies, oatmeal, or baked goods. Don't forget to share it with a monkey. Oh, I forgot to tell that first you have to meet a monkey and become friends."
     },
     {
       "id": "62d8a0bc-1b77-4389-9e7b-2e00cace6a2e",
       "name": "Yogurt",
       "calories": 125,
       "image": "https://i.imgur.com/URhdrAm.png",
-      "servings": 1
+      "servings": 1,
+      "preparation": "Enjoy yogurt as a nutritious snack or add it to smoothies, parfaits, or sauces. You can also share it with the monkey, but remember to cut the banana in slices and mix it with the yogurt."
     }
   ]
