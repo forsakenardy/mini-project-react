@@ -1,21 +1,66 @@
 .Sidebar-Content {
-    height: 70vh;
-    width: 30vw;
-    position: absolute;
-    top: 10vh;
-    left: 0;
-    background-color: rgb(219, 146, 107) ;
+  height: 70vh;
+  width: 30vw;
+  position: absolute;
+  top: 10vh;
+  left: 0;
+  background-color: #f29580;
 }
-.Footer {
-    width: 100vw;
-    height: 20vh;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-color: antiquewhite;
-}
+
 .Sidebar-Content h1 {
-    font-size: 3.5vw;
-    margin-top: 2vh;
-    margin-bottom: 4vh;
+  font-size: 3.5vw;
+  margin-top: 2vh;
+  margin-bottom: 4vh;
+}
+
+div.Footer {
+  font-size: 2.5vw;
+  width: 100vw;
+  height: 20vh;
+  padding: 1em 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #02716a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+}
+div.descriptionP {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 20px;
+}
+
+ul.socialMediaIcons {
+  display: flex;
+
+  justify-content: right;
+  align-items: end;
+  list-style: none;
+  border-top: 10px;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+  padding: 3px;
+  cursor: pointer;
+}
+button.btnGithub {
+  font-family: inherit;
+  font-size: 2.5vw;
+  position: relative;
+  background-color: #ecac9c;
+  padding: 3px 5px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 2px solid #0b0636 !important;
+  display: flex;
+  margin-left: auto;
+}
+button.btnGithub:hover {
+  background-color: #7fbfb0;
+  transition: 0.3s ease 0;
 }
