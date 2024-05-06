@@ -1,6 +1,6 @@
 import '../Styles/Navbar.css';
 import menubar from '../assets/images/menu.png'
-import logo from '../assets/images/logo nonna.png'
+import logo from '../assets/images/logo_nonna-removebg-preview.png'
 function Navbar() {
     return (
 <>
