@@ -11,6 +11,7 @@ function MainThing({recipes, setRecipes}) {
     }
     return (
 
+
         <div className="Main-Thing">
 
             {recipes.map((recipe) => {
@@ -30,6 +31,7 @@ function MainThing({recipes, setRecipes}) {
                 )
             })}
         </div>
+
 
     )
 }

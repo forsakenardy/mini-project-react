@@ -40,9 +40,11 @@ align-items: center;
 background-color: rgb(208, 255, 0);
 height: 10vh;
 }
+
 .nombre {
     margin-left: 40vw;
 }
+
 .logo {
     border-radius: 30vw;
     width: 12vw;
@@ -111,6 +113,7 @@ height: 250px;
     color: blue;
 }
 .recipe-card {
+
     width: 63vw;
     height: 68.5vh;
     
@@ -151,7 +154,10 @@ height: 250px;
 }
 .formulary {
     display: flex;
+    margin-left: 5vw;
     flex-direction: column;
     width: 250px;
     margin-left: 650px;
+
+
 }

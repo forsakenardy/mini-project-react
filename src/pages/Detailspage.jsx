@@ -13,6 +13,7 @@ function Details({ recipes }) {
     console.log(recipes);
     return (
         <>
+
             {
                 <div className="Main-Thing-2">
                     <div key={recipeCard.id} className="recipe-card">
@@ -25,6 +26,7 @@ function Details({ recipes }) {
                     </div>
                 </div>
             }
+
         </>
     )
 }

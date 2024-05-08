@@ -4,6 +4,7 @@ import trollolol_4 from '../assets/images/trollolol_4.mp3';
 import '../Styles/Sidebar.css';
 
 function Sidebar() {
+
   const audioRef = useRef(null);
   const [buttonClicked, setButtonClicked] = useState(false);
 
@@ -34,6 +35,7 @@ function Sidebar() {
       <div className="Footer"></div>
     </>
   );
+
 }
 
 export default Sidebar;
