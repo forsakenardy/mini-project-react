@@ -4,21 +4,55 @@
     position: absolute;
     top: 10vh;
     left: 0;
-    background-color: rgb(219, 146, 107) ;
-    
+    background-image: url("../assets/images/pngtree-delicious-food-white-board-picture-image_943536.jpg");
+    background-size:30vw 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 .Footer {
     width: 100vw;
     height: 20vh;
     position: absolute;
     bottom: 0;
     left: 0;
-    background-color: antiquewhite;
-   
+    background-image: url("../assets/images/fondo2.jpg");
+    background-size: 30vw;
 }
+
 .Sidebar-Content h1 {
-    font-size: 3.5vw;
+    font-size: 3vw;
     margin-top: 2vh;
     margin-bottom: 4vh;
-   
+}
+
+.Sidebar-Content a {
+    text-decoration: none; /* Elimina la decoración del enlace */
+}
+
+.magic {
+    background-image: url("../assets/images/TrollFace-2048x1152.jpeg");
+    background-size: 22vh 9vw;
+    position: absolute;
+    top: 47.1vh;
+    left: 16.7vw;
+    width: 12vw;
+    height: 17vh;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.spin {
+    will-change: filter;
+    animation: spin infinite 3s linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
