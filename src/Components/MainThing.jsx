@@ -1,6 +1,6 @@
 import "../Styles/Navbar.css"
 import jsonArray from "../recipes.json"
-import { Link } from "react-router-dom"
+import { useParams, Link } from "react-router-dom"
 import { useState } from "react";
 
 function MainThing() {

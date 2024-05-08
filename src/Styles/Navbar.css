@@ -85,3 +85,8 @@ height: 220px;
     margin-left: 12px;
     margin-bottom: 3px;
 }
+.formulary {
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+}
