@@ -88,5 +88,7 @@ height: 220px;
 .formulary {
     display: flex;
     flex-direction: column;
-    width: 850px;
+    width: 250px;
+    margin-left: 650px;
+
 }
