@@ -20,18 +20,14 @@
 
 }
 .navbar {
+    padding-left: 2vw;
 display: flex;
 justify-content: space-between;
 align-items: center;
 background-color: rgb(208, 255, 0);
 height: 10vh;
 }
-.menu {
-
-   display: absolute;
-   width: 5vw;
-   
-}
+.navbar 
 .logo {
     border-radius: 30vw;
     width: 12vw;
@@ -57,7 +53,7 @@ margin-top: 15px;
 border: 3px solid black;
 box-shadow: 5px 5px ;
 width: 200px;
-height: 220px;
+height: 250px;
 }
 
 .section  {
@@ -85,8 +81,58 @@ height: 220px;
     margin-left: 12px;
     margin-bottom: 3px;
 }
-.formulary {
+.buttons {
+    width: 60px;
+    border-radius: 20px;
+    margin-left: 20px;
+    border: 2px solid black;
+    font-weight: bold;
+}
+.delete {
+    background-color: black;
+    color: red;
+}
+.details {
+    background-color: white;
+    color: blue;
+}
+.recipe-card {
+    width: 70vw;
+    height: 68vh;
+    position: absolute;
+    top: 10vh;
+    left: 30vw;
     display: flex;
+    margin-left: 5vw;
     flex-direction: column;
-    width: 850px;
+    overflow: auto;
+}
+.recipe-card img {
+    width: 60vw;
+    height: 50vh;
+}
+.recipe-card h3 {
+    margin-right: 9vw;
+    font-size: 60px;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+.recipe-card h4 {
+    margin-right: 9vw;
+    font-size: 40px;
+    font-weight: bold;
+}
+.recipe-card p {
+    font-size: 30px;
+    margin-right: 7vw;
+}
+.back-button {
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    border: 3px solid black;
+    background-color: yellow;
+    color: brown;
+    margin-left: 480px;
+
 }

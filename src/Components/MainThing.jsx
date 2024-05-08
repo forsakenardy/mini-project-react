@@ -22,8 +22,8 @@ function MainThing() {
     <h3>{recipe.name}</h3>
     <p>calories: {recipe.calories} </p>
     <p>Servings: {recipe.servings}</p>
-    <button onClick={()=>deleteRecipe(recipe.id)}>Delete</button>
-    <Link to={`/Details/${recipe.id}`}><button>Details</button></Link>
+    <button className="buttons delete" onClick={()=>deleteRecipe(recipe.id)}>Delete</button>
+    <Link to={`/Details/${recipe.id}`}><button className="buttons details">Details</button></Link>
     </div>
 </div>
 )})}

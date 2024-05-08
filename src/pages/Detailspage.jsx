@@ -13,11 +13,13 @@ function Details({recipes}){
         {
 <div key={recipeCard.id} className="recipe-card">
 <img src={recipeCard.image} alt={recipeCard.name} />
-    <h3>{recipeCard.name}</h3>
+    <h3>{recipeCard.name}<Link to="/"><button className="back-button">Go back</button></Link></h3>
+    <h4>How to make it:</h4>
+    <p>{recipeCard.preparation}</p>
     <p>calories: {recipeCard.calories} </p>
     <p>Servings: {recipeCard.servings}</p>
-    <p>{recipeCard.preparation}</p>
-    <Link to="/"><button>Go back</button></Link>
+
+
 </div>       
         }
         </>
