@@ -24,6 +24,7 @@
     overflow: auto;
 }
 .Main-Thing-2 {
+    background-color: rgb(233, 139, 84);
     border: 5px solid black;
     height: 70vh;
     width: 70vw;
@@ -42,21 +43,30 @@ height: 10vh;
 }
 
 .nombre {
-    margin-left: 40vw;
+    margin-left: 35vw;
+    font-size: 3.4vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .logo {
     border-radius: 30vw;
-    width: 12vw;
+    width: 6vw;
+    height: 12vh;
     margin-right: 1vw;
+    margin-bottom: 1vh;
 }
 h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:rgb(50, 53, 35);
     font-size: 3vw;
+}
+.title {
+    width: 22vw;
+    height: 12vh;
+    margin-left: 37vw;
+    margin-bottom: 1vh;
 }
 .first-div {
     display:flex;
@@ -95,7 +105,9 @@ height: 250px;
     font-size: 18px;
     align-items: start;
     margin-left: 12px;
-    margin-bottom: 3px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: black;
 }
 .buttons {
     width: 60px;
@@ -113,10 +125,8 @@ height: 250px;
     color: blue;
 }
 .recipe-card {
-
     width: 63vw;
     height: 68.5vh;
-    
     position: absolute;
     display: flex;
     margin-left: 6vw;
@@ -132,37 +142,76 @@ height: 250px;
     font-size: 60px;
     border-bottom: 2px solid black;
     font-weight: bold;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 .recipe-card h4 {
     margin-right: 9vw;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
     font-size: 40px;
     font-weight: bold;
 }
 .recipe-card p {
     font-size: 30px;
     margin-right: 7vw;
+    color: black;
+}
+.info{
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    font-weight: bolder
 }
 .back-button {
-    width: 100px;
-    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 150px;
+    height: 60px;
     border-radius: 30px;
     border: 3px solid black;
     background-color: yellow;
     color: brown;
-    margin-left: 600px;
+    margin-bottom: 20px;
 
 }
 .formulary {
-    display: flex;
-    margin-left: 5vw;
-    flex-direction: column;
-    width: 250px;
-    margin-left: 650px;
-
-
+    background-color: rgb(230, 228, 228);
+width: 20vw;
+height: 40vh;
+position: absolute;
+top: 5vh;
+left: 48vw;
+display: flex;
+flex-direction: column;
+align-items: center;
+border: 4px solid black;
+border-radius: 5vh;
+}
+.formulary input{
+    height: 3vh;
+    width: 15vw;
+    margin-top: 1vh;
+}
+.name {
+    margin-top: 1vh;
+}
+.form-content {
+    width: 70vw;
+    height: 70vh;
+    position: absolute;
+    top: 10vh;
+    left: 30vw;
+    background-image: url("../assets/images/nonna-cooking.jpg");
+    background-size: cover;
+}
+.submit {
+    margin-top: 3vh;
+    margin-bottom: 3vh
 }
 .About-us {
-
     width: 70vw;
     height: 70vh;
     display: flex;
@@ -176,33 +225,49 @@ height: 250px;
     align-items:center;
     text-align: center;
     font-size: 1.5vw;
+    background-color: black;
   }
-  .creator-crad-A{
-    width: 200px;
+  .creator-card-A{
+    width: 22vw;
     border-radius: 20px;
     padding: 20px;
-    background: white;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -6px 14px 38px -20px rgba(255,255,255,1);
   }
  
 
   .creator-image{
-    width: 90px;
-    height: 90px;
+    width: 18vw;
+
+    height: 40vh;
     border-radius: 30%;
-    border: color 10px solid aqua;
     margin-bottom: 10px;
 
 
   }
   h1{
-    font-size: 15px;
-    color: #333;
+    color: black;
+
   }
-  
+  .we{
+    font-size: 3vw;
+    color: #f8e7e7;
+    margin-bottom: 2vh;
+    border-bottom: 2px solid white;
+  }
   p{
-    font-size: 10px;
-    color: #666;
+    font-size: 1.5vw;
+    color: #c4b6b6;
+    margin-bottom: 1.5vh;
+  }
+  .pharagraph-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
   }
   /*.NARDY {
     width: 60px;

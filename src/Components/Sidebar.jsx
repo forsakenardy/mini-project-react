@@ -5,6 +5,7 @@ import '../Styles/Sidebar.css';
 import FacebookIcon from "../assets/images/facebook.png";
 import InstaIcon from "../assets/images/instagram.png";
 import twitterIcon from "../assets/images/twitterX.png";
+import githubIcon from "../assets/images/github-icon.png"
 
 function Sidebar() {
 
@@ -24,19 +25,19 @@ function Sidebar() {
     <>
       <div className="Sidebar-Content">
         <Link to="/" className={buttonClicked ? 'spin' : ''}>
-          <h1>Home</h1>
+          <h1 className='the-hover'>Home</h1>
         </Link>
         <Link to="/aboutUs" className={buttonClicked ? 'spin' : ''}>
-          <h1>About Us</h1>
+          <h1 className='the-hover'>About Us</h1>
         </Link>
         <Link to="/FormPage" className={buttonClicked ? 'spin' : ''}>
-          <h1>Create New Recipe</h1>
+          <h1 className='the-hover'>Create New Recipe</h1>
         </Link>
         <button onClick={handleButtonClick} className="magic"></button>
         <audio ref={audioRef} src={trollolol_4} />
       </div>
       <div className="Footer">
-        <footer>
+        <footer className='Footer'>
           <div className="descriptionP">
             &copy; 2024 Developed by Arnaldo, Mikel And Nisol
           </div>
@@ -45,8 +46,9 @@ function Sidebar() {
             <img src={FacebookIcon} alt="" />
             <img src={InstaIcon} alt="" />
             <img src={twitterIcon} alt="" />
-            <button className="btnGithub">githublink</button>
+            <img src={githubIcon} alt="" />
           </ul>
+
         </footer>
       </div>
     </>

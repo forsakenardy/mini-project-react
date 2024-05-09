@@ -11,7 +11,7 @@
     flex-direction: column;
     align-items: center;
 }
-div.Footer {
+.Footer {
     font-size: 1.5vw;
     width: 100vw;
     height: 20vh;
@@ -22,11 +22,9 @@ div.Footer {
     background-size: 30vw;
     padding: 1em 0;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-content: space-around;
     
 }
 div.descriptionP {
@@ -35,25 +33,35 @@ div.descriptionP {
   border-bottom: 20px;
 }
 
-ul.socialMediaIcons {
-  width: 6px;
-  display: flex;
-  justify-content: right;
-  align-items: end;
-  list-style: none;
-  border-top: 20px;
+.socialMediaIcons {
+  margin-top: 4vh;
+  width: 90vw;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.socialMediaIcons img {
+  width: 3vw;
+  height: 6vh;
 }
 
+.the-hover:hover {
+  font-size: 7vh;
+}
+.another-hover:hover {
+  font-size: 3.5vh;
+  color: red;
+}
 img {
   width: 30px;
   height: 30px;
   padding: 3px;
   cursor: pointer;
 }
-button.btnGithub {
+.btnGithub {
   
   font-family: inherit;
-  font-size: 1.5vw;
+  font-size: 2vw;
   position: relative;
   background-color: #53b9db;
   padding: 3px 5px;
@@ -65,11 +73,10 @@ button.btnGithub {
 button.btnGithub:hover {
   background-color: #7fbfb0;
   color: aliceblue;
-  transition: 0.3s ease 0;
 }
 .Sidebar-Content h1 {
     font-size: 3vw;
-    margin-top: 2vh;
+    margin-top: 3vh;
     margin-bottom: 4vh;
 }
 .Sidebar-Content a {

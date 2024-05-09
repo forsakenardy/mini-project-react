@@ -1,12 +1,11 @@
 import '../Styles/Navbar.css';
-import logo from '../assets/images/logo_nonna-removebg-preview.png'
+import logo from '../assets/images/logo-favicon.png'
+import nombre from '../assets/images/nombre.png'
 function Navbar() {
     return (
 <>
 <div className='navbar'> 
-
-<h1 className='nombre'>NONNA'S RECIPES</h1>
-
+<img className='title'  src={nombre} alt="" />
 <img className='logo' src={logo} alt="logo" />
 
 </div>

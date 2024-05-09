@@ -27,10 +27,9 @@ function FormPage({ recipes, setRecipes }) {
         setRecipes([newRecipe, ...recipes]);
     }
     return (
-        <>
-
+        <> <div className="form-content">
             <form onSubmit={handleSubmit} className="formulary" action="">
-                <label htmlFor="Name">Name</label>
+                <label className="name" htmlFor="Name">Name</label>
                 <input onChange={handleInputs} type="text" value={newRecipe.name} name="name" />
                 <label htmlFor="image">Image</label>
                 <input onChange={handleInputs} type="text" value={newRecipe.image} name="image" />
@@ -38,9 +37,11 @@ function FormPage({ recipes, setRecipes }) {
                 <input onChange={handleInputs} type="number" value={newRecipe.calories} name="calories" />
                 <label htmlFor="Preparation">Preparation</label>
                 <input onChange={handleInputs} type="text" value={newRecipe.preparation} name="preparation" />
-                <button type="submit">Send recipe</button>
-                <Link to="/"><button>Go back</button></Link>
+                <button className="submit" type="submit">Send recipe</button>
+                <Link to="/"><button className="back-back">Go back</button></Link>
             </form>
+        </div>
+
         </>
     )
 }
