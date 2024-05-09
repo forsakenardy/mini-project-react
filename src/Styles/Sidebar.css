@@ -1,41 +1,106 @@
 .Sidebar-Content {
+
     height: 70vh;
     width: 30vw;
     position: absolute;
     top: 10vh;
     left: 0;
-    background-color: rgb(219, 146, 107) ;
+    background-image: url("../assets/images/pngtree-delicious-food-white-board-picture-image_943536.jpg");
+    background-size:30vw 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.Footer {
+div.Footer {
+    font-size: 1.5vw;
     width: 100vw;
     height: 20vh;
     position: absolute;
     bottom: 0;
     left: 0;
-    background-color: antiquewhite;
+    background-image: url("../assets/images/fondo2.jpg");
+    background-size: 30vw;
+    padding: 1em 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    
+}
+div.descriptionP {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 20px;
+}
+
+ul.socialMediaIcons {
+  width: 6px;
+  display: flex;
+  justify-content: right;
+  align-items: end;
+  list-style: none;
+  border-top: 20px;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+  padding: 3px;
+  cursor: pointer;
+}
+button.btnGithub {
+  
+  font-family: inherit;
+  font-size: 1.5vw;
+  position: relative;
+  background-color: #53b9db;
+  padding: 3px 5px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 2px solid #0b0636 !important;
+  display: flex;
+}
+button.btnGithub:hover {
+  background-color: #7fbfb0;
+  color: aliceblue;
+  transition: 0.3s ease 0;
 }
 .Sidebar-Content h1 {
     font-size: 3vw;
     margin-top: 2vh;
     margin-bottom: 4vh;
 }
-.magic {
-    width: 25vw;
-    border-radius: 4vw;
+.Sidebar-Content a {
+    text-decoration: none; /* Elimina la decoración del enlace */
 }
-.spin{
+
+.magic {
+    background-image: url("../assets/images/TrollFace-2048x1152.jpeg");
+    background-size: 22vh 9vw;
+    position: absolute;
+    top: 47.1vh;
+    left: 16.7vw;
+    width: 12vw;
+    height: 17vh;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.spin {
+
     will-change: filter;
     animation: spin infinite 3s linear;
 }
 
 @keyframes spin {
     from {
-      transform: rotate(0deg);
+
+        transform: rotate(0deg);
     }
     to {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
-  }
+}
+

@@ -23,8 +23,9 @@ function App() {
       <Route path="/AboutUs" element={<AboutUs/>}/>
       {/*Aquí metemos un link para clicar en la foto y que lleve a 
       los detalles de la comida en cuestión*/}
-      <Route path="/Details/:recipeId" element={<Detailspage recipes={recipes} setRecipes={setRecipes}/>}/>
-      <Route path="/FormPage" element={<FormPage recipes={recipes}/>}></Route>
+
+      <Route path="/Details/:recipeId" element={<Detailspage recipes={recipes} setRecipes={setRecipes}/>}></Route>
+      <Route path="/FormPage" element={<FormPage recipes={recipes} setRecipes={setRecipes}/>}></Route>
     </Routes>
     {/*<footer>©️ {newDate.getFullYear()}</footer>*/}
     </>
