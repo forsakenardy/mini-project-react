@@ -1,33 +1,33 @@
 .Sidebar-Content {
-  height: 70vh;
-  width: 30vw;
-  position: absolute;
-  top: 10vh;
-  left: 0;
-  background-color: #f29580;
-}
 
-.Sidebar-Content h1 {
-  font-size: 3.5vw;
-  margin-top: 2vh;
-  margin-bottom: 4vh;
+    height: 70vh;
+    width: 30vw;
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    background-image: url("../assets/images/pngtree-delicious-food-white-board-picture-image_943536.jpg");
+    background-size:30vw 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
 div.Footer {
-  font-size: 1.5vw;
-  width: 100vw;
-  height: 20vh;
-  padding: 1em 0;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-color: #8ddbd6;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: space-around;
+    font-size: 1.5vw;
+    width: 100vw;
+    height: 20vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: url("../assets/images/fondo2.jpg");
+    background-size: 30vw;
+    padding: 1em 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    
 }
 div.descriptionP {
   display: flex;
@@ -38,7 +38,6 @@ div.descriptionP {
 ul.socialMediaIcons {
   width: 6px;
   display: flex;
-
   justify-content: right;
   align-items: end;
   list-style: none;
@@ -68,3 +67,40 @@ button.btnGithub:hover {
   color: aliceblue;
   transition: 0.3s ease 0;
 }
+.Sidebar-Content h1 {
+    font-size: 3vw;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+}
+.Sidebar-Content a {
+    text-decoration: none; /* Elimina la decoración del enlace */
+}
+
+.magic {
+    background-image: url("../assets/images/TrollFace-2048x1152.jpeg");
+    background-size: 22vh 9vw;
+    position: absolute;
+    top: 47.1vh;
+    left: 16.7vw;
+    width: 12vw;
+    height: 17vh;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.spin {
+
+    will-change: filter;
+    animation: spin infinite 3s linear;
+}
+
+@keyframes spin {
+    from {
+
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
