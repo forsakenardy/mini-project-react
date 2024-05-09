@@ -2,10 +2,13 @@ import React, { useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import trollolol_4 from '../assets/images/trollolol_4.mp3';
 import '../Styles/Sidebar.css';
+import FacebookIcon from "../assets/images/facebook.png";
+import InstaIcon from "../assets/images/instagram.png";
+import twitterIcon from "../assets/images/twitterX.png";
 
 function Sidebar() {
-
-  const audioRef = useRef(null);
+  
+    const audioRef = useRef(null);
   const [buttonClicked, setButtonClicked] = useState(false);
 
   const playSound = () => {
@@ -16,7 +19,7 @@ function Sidebar() {
     setButtonClicked(true);
     playSound();
   };
-
+  
   return (
     <>
       <div className="Sidebar-Content">
@@ -32,10 +35,22 @@ function Sidebar() {
         <button onClick={handleButtonClick} className="magic"></button>
         <audio ref={audioRef} src={trollolol_4} />
       </div>
-      <div className="Footer"></div>
+      <div className="Footer">
+        <footer>
+          <div className="descriptionP">
+            &copy; 2024 Developed by Arnaldo, Mikel And Nisol
+          </div>
+
+          <ul className="socialMediaIcons">
+            <img src={FacebookIcon} alt="" />
+            <img src={InstaIcon} alt="" />
+            <img src={twitterIcon} alt="" />
+            <button className="btnGithub">githublink</button>
+          </ul>
+        </footer>
+      </div>
     </>
   );
-
 }
 
 export default Sidebar;
