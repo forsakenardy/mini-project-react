@@ -7,7 +7,7 @@ import InstaIcon from "../assets/images/instagram.png";
 import twitterIcon from "../assets/images/twitterX.png";
 
 function Sidebar() {
-  
+
     const audioRef = useRef(null);
   const [buttonClicked, setButtonClicked] = useState(false);
 
@@ -26,7 +26,7 @@ function Sidebar() {
         <Link to="/" className={buttonClicked ? 'spin' : ''}>
           <h1>Home</h1>
         </Link>
-        <Link to="" className={buttonClicked ? 'spin' : ''}>
+        <Link to="/aboutUs" className={buttonClicked ? 'spin' : ''}>
           <h1>About Us</h1>
         </Link>
         <Link to="/FormPage" className={buttonClicked ? 'spin' : ''}>
@@ -51,6 +51,7 @@ function Sidebar() {
       </div>
     </>
   );
+
 }
 
 export default Sidebar;
