@@ -1,8 +1,9 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom"; // useNavigate is not used
 import { Link } from "react-router-dom";
 import '../Styles/Navbar.css'
 function FormPage({ recipes, setRecipes }) {
+    // well done on using useState to manage the form state in an object
     const [newRecipe, setNewRecipe] = useState({
         name: "",
         image: "",
@@ -25,6 +26,12 @@ function FormPage({ recipes, setRecipes }) {
         console.log("SUBMIT: ", newRecipe);
         event.preventDefault();
         setRecipes([newRecipe, ...recipes]);
+        // once you create the new recipe, you can redirect the user to the home page
+        // you can use the navigate hook to do this
+        // const navigate = useNavigate();
+        // navigate("/"); // this takes the user to the home page
+
+        // another option is to empty the form fields after submitting the form and display a modal to the user
     }
     return (
         <> <div className="form-content">

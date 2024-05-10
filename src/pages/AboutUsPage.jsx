@@ -2,7 +2,7 @@
 import "../Styles/Navbar.css";
 
 
-
+// since each section is the same, you could create a component for each section and pass the data as props
 
 function AboutUs() {
   return (

@@ -8,6 +8,34 @@
     background-color: aqua;
 }
 
+/* 
+The overall styling is good.
+For the font-sizes, avoid using 'vw' as it can be inconsistent across different devices.
+Instead, use 'rem' or 'em' for better responsiveness.
+rems or ems are relative to the font-size of the root element (html). If you set a font-size of 16px on the body, then 1rem is equal to 16px. 
+This way you can avoid the inconsistency of 'vw' and 'vh' units.
+To handle the responsiveness of the website, you can use media queries. for example:
+
+@media screen and (max-width: 600px) {
+    .Main-Thing {
+       font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .Main-Thing {
+       font-size: 0.8rem;
+    }
+}
+
+I also recommend yo to delete all the code that is not being used, like the commented code at the end of the file.
+
+The name of this file doesn't match the content. It should be called 'Main.css' or 'App.css' since it contains the styles for almost all the components of the website.
+
+Try to divide the css into different files. The number of lines in this file is too high.  
+
+*/
+
 .Main-Thing {
     background-image: url("../assets/images/nonna-cooking.jpg");
     background-size: cover;
