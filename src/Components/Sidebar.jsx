@@ -9,10 +9,13 @@ import githubIcon from "../assets/images/github-icon.png"
 
 function Sidebar() {
 
+  // we haven't learned what useRef 
+  // try to avoid using hooks that we haven't learned
     const audioRef = useRef(null);
   const [buttonClicked, setButtonClicked] = useState(false);
 
   const playSound = () => {
+    // what does audioRef.current do?
     audioRef.current.play();
   };
 

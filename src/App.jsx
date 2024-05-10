@@ -4,16 +4,16 @@ import {Routes, Route} from "react-router-dom"
 import Navbar from './Components/Navbar.jsx'
 import jsonArray from './recipes.json'
 import MainThing from './Components/MainThing.jsx' 
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom' // Link is not used
 import Sidebar from './Components/Sidebar.jsx'
 import Detailspage from './pages/Detailspage.jsx'
 import FormPage from './pages/FormPage.jsx'
 import AboutUs from './pages/AboutUsPage.jsx'
-import RecipeCard from './Components/RecipeCard.jsx'
+import RecipeCard from './Components/RecipeCard.jsx' // RecipeCard is not used
 
 function App() {
   const [recipes, setRecipes] = useState(jsonArray)
-  const newDate = new Date();
+  const newDate = new Date(); // newDate is not used
   return(
     <>
     <Navbar />
